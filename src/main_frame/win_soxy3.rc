@@ -1,0 +1,28 @@
+IDI		ICON	DISCARDABLE		"images/soxy2.ico"
+1 VERSIONINFO
+FILEVERSION 3,0,0,0
+PRODUCTVERSION 0,3,0,1
+BEGIN
+        BLOCK "VarFileInfo"
+        BEGIN
+                VALUE "Translation", 0x804, 0x4b0
+        END
+        BLOCK "StringFileInfo"
+        BEGIN
+                BLOCK "080404b0"
+                BEGIN
+                        VALUE "Comments", "西工大网络工具\0"
+                        VALUE "CompanyName", "Tsin Studio\0"
+                        VALUE "FileDescription", "SoXy3 For NPUers\0"
+                        VALUE "FileVersion", "3,0,0,1\0"
+                        VALUE "InternalName", "Dso Tsen\0"
+                        VALUE "LegalCopyright", "Powered by Tsin Studio\0"
+                        VALUE "LegalTrademarks", "Tsin Studio\0"
+                        VALUE "OriginalFilename", "SoXy3\0"
+                        VALUE "PrivateBuild", "Here is PrivateBuild\0"
+                        VALUE "ProductName", "SoXy3 For NPUers\0"
+                        VALUE "ProductVersion", "3,0,0,0\0"
+                        VALUE "SpecialBuild", "Here is SpecialBuild\0"
+                END
+        END
+END

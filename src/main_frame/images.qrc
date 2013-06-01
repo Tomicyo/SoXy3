@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/background.png</file>
+        <file>images/_hi.png</file>
+        <file>images/hi.png</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>images/soxy2.ico</file>
+        <file>images/soxy.png</file>
+        <file>images/title.png</file>
+    </qresource>
+</RCC>

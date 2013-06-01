@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RJWidget</class>
+ <widget class="QWidget" name="RJWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>281</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RJWidget</string>
+  </property>
+  <widget class="QComboBox" name="cbox_nic">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>213</y>
+     <width>160</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+	 color: white;
+     font-size: 24px;
+     border:0px;
+     padding-right: 20px;
+}
+
+QComboBox:editable {
+	background-image: url(:/img/netcardselect.png);
+}
+
+QComboBox:!editable, QComboBox::drop-down:editable {
+	background-image: url(:/img/netcardselect.png);
+}
+
+ /* QComboBox gets the &quot;on&quot; state when the popup is open */
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(58, 63, 66, 255), stop:0.661017 rgba(71, 77, 80, 255), stop:1 rgba(86, 93, 97, 255));
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+     padding-top: 3px;
+     padding-left: 4px;
+}
+
+QComboBox::drop-down {
+     subcontrol-origin: padding;
+     subcontrol-position: right;
+
+     border-left-width: 1px;
+     border-left-color: darkgray;
+     border-left-style: solid; /* just a single line */
+     border-top-right-radius: 1px; /* same radius as the QComboBox */
+     border-bottom-right-radius: 1px;
+}
+
+QComboBox::down-arrow{
+	min-width:35px;
+	image: url(:/img/arrow.png);
+}
+
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+     top: 4px;
+}
+
+QComboBox QAbstractItemView {
+     border: 1px solid darkgray;
+     selection-background-color: rgb(218,35,14);
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/input_field.png</file>
+        <file>img/LabelId.png</file>
+        <file>img/LabelPass.png</file>
+        <file>img/NPULOGO.png</file>
+        <file>img/remem_pass_bg.png</file>
+        <file>img/remem_pass_marker.png</file>
+        <file>img/staterback.png</file>
+        <file>img/staterhandler.png</file>
+        <file>AuthPage.qml</file>
+        <file>img/RJ.png</file>
+        <file>img/run_back.png</file>
+        <file>img/run_check.png</file>
+        <file>img/neb.png</file>
+        <file>img/netcardselect.png</file>
+        <file>img/arrow.png</file>
+    </qresource>
+</RCC>
